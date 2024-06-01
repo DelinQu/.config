@@ -104,7 +104,9 @@ import = [
   # "~/.config/alacritty/themes/papercolor_dark.toml"
   # "~/.config/alacritty/themes/ayu_dark.toml"
   # "~/.config/alacritty/themes/Cobalt2.toml"
+  
   "~/.config/alacritty/themes/breeze.toml"
+
   # "~/.config/alacritty/themes/dracula.toml"
   # "~/.config/alacritty/themes/aura.toml"
   # "~/.config/alacritty/themes/moonlight_ii_vscode.toml"
@@ -178,7 +180,7 @@ dynamic_padding = true # Default: false
 decorations = "Buttonless"  # Default: "Full"
 
 # Opacity
-opacity = 0.99 # Default: 1.0
+opacity = 0.98 # Default: 1.0
 
 # Blur (macOS/KDE Wayland only)
 blur = false  # Default: false
@@ -236,7 +238,7 @@ italic = { style = "Italic" }  # Inherits family from normal, Default style: Ita
 bold_italic = { style = "Bold Italic" }  # Inherits family from normal, Default style: Bold Italic
 
 # Font size in points
-size = 16 # Default: 11.25
+size = 14 # Default: 11.25
 
 # Offset is extra space around each character
 offset = { x = 0, y = 0 }  # Default: x = 0, y = 0

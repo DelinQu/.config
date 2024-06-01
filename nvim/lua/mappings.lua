@@ -20,3 +20,8 @@ map("n", "<leader>gt", "<cmd>Telescope lsp_type_definitions<cr>", { desc = "LSP 
 
 -- LSP Terminal buffers
 map("n", "<leader>tm", "<cmd>Telescope terms<cr>", { desc = "LSP Terminal Buffers" })
+
+
+-- URL-Open mappings
+-- vim.keymap.set("n", "gx", "<esc>:URLOpenUnderCursor<cr>")
+map("n", "gx", "<cmd>:URLOpenUnderCursor<cr>", { desc = "Open URL under cursor" })
