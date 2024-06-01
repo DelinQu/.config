@@ -18,4 +18,5 @@ map("n", "<leader>gr", "<cmd>Telescope lsp_references<cr>", { desc = "LSP Refere
 map("n", "<leader>gi", "<cmd>Telescope lsp_implementations<cr>", { desc = "LSP Implementations" })
 map("n", "<leader>gt", "<cmd>Telescope lsp_type_definitions<cr>", { desc = "LSP Type Definitions" })
 
-
+-- LSP Terminal buffers
+map("n", "<leader>tm", "<cmd>Telescope terms<cr>", { desc = "LSP Terminal Buffers" })
