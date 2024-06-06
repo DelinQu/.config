@@ -167,8 +167,8 @@ dimensions = { columns = 200, lines = 48 }  # large
 # dimensions = { columns = 120, lines = 30 } # small 
 # dimensions = { columns = 100, lines = 25} # tiny 
 
-# Window startup position
-position = { x = 1100, y = 500 }  # Default: "None"
+# Window startup position x = (W - columns * cell_width) / 2, y = (H - lines * cell_height) / 2
+position = { x = 470, y = 240 }  # Default: "None"
 
 # Padding
 padding = { x = 15, y = 15 }  # Default: x = 0, y = 0
@@ -180,7 +180,7 @@ dynamic_padding = true # Default: false
 decorations = "Buttonless"  # Default: "Full"
 
 # Opacity
-opacity = 0.98 # Default: 1.0
+opacity = 0.95 # Default: 1.0
 
 # Blur (macOS/KDE Wayland only)
 blur = false  # Default: false
