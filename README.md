@@ -23,4 +23,4 @@ The following packages should be install for a full-configuration,
     * [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
     * [typecraft](https://www.youtube.com/watch?v=niuOc02Rvrc)
 
-- python-lsp, recommend install by apt, brew, pip, or conda
+- python-lsp, recommend install by apt, brew, pip, or conda (pyright is better)

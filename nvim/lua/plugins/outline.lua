@@ -6,13 +6,16 @@ local spec = {
   opts = {
     symbols = {
       filter = {
-        -- default = { "String", exclude = true },
-        python = { "Variable", "Function", "Class" },
+        default = { "String", exclude = true },
+        -- python = { "Variable", "Function", "Class" },
       },
     },
     outline_window = {
       auto_jump = true,
     },
+  },
+  keys = { -- Example mapping to toggle outline
+    { "<leader>o", "<cmd>Outline<CR>", desc = "Toggle outline" },
   },
 }
 return spec
