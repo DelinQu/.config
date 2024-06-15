@@ -23,4 +23,8 @@ The following packages should be install for a full-configuration,
     * [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
     * [typecraft](https://www.youtube.com/watch?v=niuOc02Rvrc)
 
-- python-lsp, recommend install by apt, brew, pip, or conda (pyright is better)
+* python-lsp, recommend install by apt, brew, pip, or conda (pyright is better)
+
+
+## Tutorials
+* `*` and `#` will highlight the current word and jump to the next previous one.
